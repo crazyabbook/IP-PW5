@@ -1,0 +1,158 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+body {
+    margin: 0;
+    font-family: 'Montserrat';
+}
+nav > ul {
+    margin: 0;
+    padding: 10px 0 10px 50px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    background-color: #1E1E1E;
+}
+.logo {
+    width: 55px;
+    height: 50px;
+}
+ul > li > a {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+header {
+    border-radius: 0 0 100px 0;
+    padding: 80px 0 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to top right, #2F2F2F, #202020);
+}
+header > img {
+    border-radius: 85px;
+    width: 540px;
+    height: 470px;
+}
+h1 {
+    margin: 0;
+    font-size: 60px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.header > p {
+    margin: 10px 0 20px 0;
+    font-size: 26px;
+    font-weight: 200;
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
+.header > div > a {
+    margin: 0 20px 0 0;
+    border: 2px solid #363636;
+    border-radius: 8px;
+    padding: 18px 25px 18px 25px;
+    display: inline-block;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.header > div > a:first-child {
+    border: none;
+    background-color: #000000;
+}
+.header > div > a:last-child {
+    background-color: #252525;
+}
+section {
+    margin: 80px auto;
+    max-width: 970px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 70px;
+}
+h2 {
+    margin: 0;
+    font-size: 52px;
+    font-weight: 700;
+}
+#portfolio > div > img {
+    margin: 0 0 15px 0;
+    width: 100%;
+}
+#portfolio > div > a {
+    font-size: 22px;
+    text-decoration: underline;
+    color: #000000;
+}
+footer > div:first-child {
+    border-radius: 100px 0 0 0;
+    padding: 80px 0 80px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 65px;
+    background-color: #252525;
+}
+footer > div:first-child > h2 {
+    color: #FFFFFF;
+}
+.contact_blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.contact_blocks > button {
+    border: 1px solid #363636;
+    border-radius: 20px;
+    padding: 46px 0 46px 20px;
+    width: 370px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-family: 'Montserrat';
+    background-color: #252525;
+    cursor: pointer;
+}
+.contact_blocks > button:nth-child(2) {
+    background-color: #1E1E1E;
+}
+.contact_blocks > button > img {
+    width: 48px;
+    height: 48px;
+}
+.contact_blocks > button > p {
+    margin: 0;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+footer > div:last-child {
+    padding: 30px 0 15px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+    background-color: #1E1E1E;
+}
+footer > div:last-child > p {
+    margin: 0;
+    font-size: 14px;
+}
+footer > div:last-child > p:first-child {
+    color: #5D5D5D;
+}
+footer > div:last-child > p:last-child {
+    color: #5886A8;
+}
